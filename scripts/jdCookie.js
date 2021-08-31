@@ -1,0 +1,19 @@
+
+var cookies = {CookieJD1:'pt_key=AAJhKQiFADD5RZ2ZPMPovkGhegvWlQzFAoSbaDXq5K787cimvV1QxJ81096lhZrgkYgf-bTiVXA;pt_pin=jd_5d12021020345;',CookieJD2:'pt_key=AAJhIhQjADDzzOjBnJ3qJayf5XdY0Ww24NraizZ0jSY5_9S9A5fJ2lrX6ogc6Y9hQFUFQ3lXiMI;pt_pin=jd_5a246f239f903;',CookieJD3:'pt_key=AAJhHjueADDJSmuRW4SIKGGAZidJwMlvQ2p9GgZ3OdzMyExgAQTnRGOCMhyZzmb-GTuLV4kpZrY;pt_pin=jd_ulRMYrxVGXPE;',CookieJD4:'pt_key=;pt_pin=15870975%E5%AD%A6;',CookieJD5:'pt_key=;pt_pin=jd_71097832dd76d;',CookieJD6:'pt_key=;pt_pin=jd_UefQhEgsyxQj;',CookieJD7:'pt_key=AAJhHpH-ADAEV2t3zJ2JQn_4YwQjelpimCkmvF5wK4iUswcnP_kWsnDiML0_C8XPJcQ2RuNkarU;pt_pin=jd_GqTnjKmsXcDM;',CookieJD8:'pt_key=;pt_pin=Ic5259;',CookieJD9:'pt_key=AAJhIcvNADD3qLM75DUnN9MUgH_ys3C0g0C-RnIleUFJYo99u-Ge_JfPG2i4Cq-pFVTgB4vm_4Y;pt_pin=jd_7688782b8efef;',CookieJD10:'pt_key=AAJhDirnADB2hFUcigil82Gx40zIDSOwL7bt5pID6-pHypl62tzOl3BuKXTX9QWAUwOOue9LRgI;pt_pin=jd_792afbffdd73e;',CookieJD11:'pt_key=AAJhDjI5ADDM-h54vEKX3IMCCKpYMM6r1CZK11RihJgFlZXSTXtxvP3aOitBgN2WhL3u06WfBdY;pt_pin=18276799523_p;',CookieJD12:'pt_key=AAJhDj47ADBBpbkFBLB1rHzG30buuvUzwIo_hGd_whzMw_iLZ4U_qJ70g0Hfg2tbbIi5M8cEYM8;pt_pin=jd_zqRAzEFIYuLw;',CookieJD13:'pt_key=AAJhJdmHADD0reRGQt3bHPeZYt3uMqm26oWfANIoGY1d513VnAwyB1P1tg4xdda4rmgcwSBhWhw;pt_pin=jd_70fa1e2e3fbe3;',CookieJD14:'pt_key=AAJhEKj7ADDq8ALxGactvpvYUIURAMKOYFhdxwWzv-RCfo6zaLAX04HBPovV39QqgVq1ksoJKis;pt_pin=jd_523b94645be6d;',CookieJD15:'pt_key=AAJhGJejADAw7lEDsDZKA-KfN0T5BOr2CwjQXEYfhFieXVV-GKpfJ1jq1B3ocg4VPG3mPLv59co;pt_pin=jd_40d4bdba5420a;',CookieJD16:'pt_key=AAJhFVAZADAJwb0oA-cOc77yilIVjakeCCnrGnYjfv4FyhsV08ft90fcXwABEWusueiAMs11CUA;pt_pin=1137349438_m;',CookieJD17:'pt_key=AAJhJjBYADCSn4fKhg7dLkBOdF65JfUhPb8v5bFhm4RB7_s1aYZNK2W_ptijo57zbyiUvYIr1xE;pt_pin=%E9%99%8C%E6%B2%90%E5%BF%B5;',CookieJD18:'pt_key=AAJhI0CkADAkvkocPtwHcYhH8gElwMNiX9ZSRtethvnNni84oQBgrANzkTgeTj_4DTMMYn4k9dI;pt_pin=jd_64f2a4e1ef26c;',CookieJD19:'pt_key=AAJhDhasADDN4J9zsW7SZNl5EP4T4zsbWK8VsXdb_VHPhdjc4F4JuRwKZyrR-PEO_T6XP1b-kFk;pt_pin=jd_nROArBGxRywV;',CookieJD20:'pt_key=AAJhJdnVADArbx3qIvem7s4wcp2BUkQbHRmxjnD3bsRLTzFws6t98crm_1U5wc11JAhZEMiOvlc;pt_pin=jd_dmQuJcurREsR;',CookieJD21:'pt_key=AAJhGT2RADARqcZCLQxae2NGQsvrHZbmyDv8UiNpazZ1mVyOeu9_AWiS61tOjX5iXRx9Vo--OXc;pt_pin=jd_iisPYDJoPWut;',CookieJD22:'pt_key=AAJhGUO-ADCKkncfTO-d7t4IeTHe73QcUw7fJctzbRyWRwk5VG2aURZ-SjWYuObjCyh6AR8QIJU;pt_pin=jd_cGbXZWvupAiW;',CookieJD23:'pt_key=AAJhGUQTADBhZ4nlUYaPZVmE4pHbV__RgidrLl6HFWYqkii6vXUghP7ICLyxAcB_JNM99gTAuc8;pt_pin=jd_GtaPnhQGBIwS;',CookieJD24:'pt_key=AAJhGnf3ADCWX26bYlVYHlQVJhFncsDEQOLe6QBYVqNE7LuKIdebGdeJoBE_xiWL5kkiA__bUNA;pt_pin=jd_7eca6ca64b508;',CookieJD25:'pt_key=AAJhHmKIADDVewjdowlcd9bGZWPUZOIxMv9gb_tocSJ41HODqRmUAonOTfGg8j6qqxaxChfWNh4;pt_pin=jd_gKKyYTRuoFAC;',CookieJD26:'pt_key=;pt_pin=jd_4150e0f3e52e6;',CookieJD27:'pt_key=AAJhJdVtADClzrZXMU2dcEXgBMhofYUR_BwJFYf5AozKvpD4L4IcCjIUkIGmSBtPu9xJfHgVuIQ;pt_pin=jd_4ee8f2fb10a76;',CookieJD28:'pt_key=AAJhJjW3ADAvsA_kjZ9ZruiEGL9P3zkPNNMuuQ0RrT4s_4IVfyfngUmbHFYccyzzqWFNQzLSY7Y;pt_pin=li940512;',CookieJD29:'pt_key=AAJhERB9ADAK6Jl84SkCsBabMFgKCdnGJFC2II3FcrfLq_AhzqkGVAsmrU3kudoSJ8SOPqcNWFc;pt_pin=jd_413b748bba7ac;',CookieJD30:'pt_key=AAJhD_d8ADBqfxTxx5ouySiJN5vYOh8selOaxr7LErn_tClWhJV7MEebI7Z79kA82oJCMQib-Y0;pt_pin=jd_689f2482abf61;',CookieJD31:'pt_key=;pt_pin=jd_7fdcc33b6f16b;',CookieJD32:'pt_key=AAJhD5hFADD0PYo5FJ4sDxLvyGl7KFdjdXt3SJLxkIWSbVJ317UdYJA2dvGbvZ2Uxo6hnFbbOew;pt_pin=jd_7fe24f4a4f1ec;',CookieJD33:'pt_key=AAJhJmCJADA9I_K-11FTILosy9-QI6RLrv2UfsrUNUXfMTC5o2cN5aEGgR0ThAFp-PoEFGqXE7g;pt_pin=wdXGrMrQhHWzsK;'}
+var pins = process.env.pins
+if(pins){
+	pins = pins.split("&")
+	for (var key in cookies) {
+	    c = false
+	    for (var pin of pins) {
+		   if (pin && cookies[key].indexOf(pin) != -1) {
+			  c = true
+			  break
+		   }
+	    }
+	    if (!c) {
+		   delete cookies[key]
+	    }
+	}
+}
+module.exports = cookies

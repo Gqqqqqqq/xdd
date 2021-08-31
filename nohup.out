@@ -1,0 +1,96 @@
+2021/08/19 13:22:08.850 [1;34m[I][0m [proc.go:6308]  当前/root/xdd
+
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:32
+[0m[33m[0.035ms] [34;1m[rows:-][0m SELECT count(*) FROM sqlite_master WHERE type='table' AND name="jd_cookies"
+
+2021/08/19 13:22:08 [32m/root/xdd/models/db.go:38
+[0m[33m[0.033ms] [34;1m[rows:-][0m SELECT * FROM `jd_cookies` LIMIT 1
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:20
+[0m[33m[0.040ms] [34;1m[rows:1][0m PRAGMA foreign_keys
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:83
+[0m[33m[0.033ms] [34;1m[rows:-][0m SELECT sql FROM sqlite_master WHERE type = "table" AND tbl_name = "jd_cookies" AND name = "jd_cookies"
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:95
+[0m[33m[0.025ms] [34;1m[rows:-][0m SELECT * FROM `jd_cookies` LIMIT 1
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:108
+[0m[33m[0.198ms] [34;1m[rows:0][0m CREATE TABLE `jd_cookies__temp` (`ID` integer,`Priority` integer DEFAULT 1,`CreateAt` text,`PtKey` text,`PtPin` text UNIQUE,`Note` text,`Available` text DEFAULT "true",`Nickname` text,`BeanNum` text,`QQ` integer,`PushPlus` text,`Telegram` integer,`Fruit` text,`Pet` text,`Bean` text,`JdFactory` text,`DreamFactory` text,`Jxnc` text,`Jdzz` text,`Joy` text,`Sgmh` text,`Cfd` text,`Cash` text,`Help` text DEFAULT "false",`Hack` text,PRIMARY KEY (`ID`))
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:108
+[0m[33m[0.076ms] [34;1m[rows:22][0m INSERT INTO `jd_cookies__temp`(`ID`,`Priority`,`CreateAt`,`PtKey`,`PtPin`,`Note`,`Available`,`Nickname`,`BeanNum`,`QQ`,`PushPlus`,`Telegram`,`Fruit`,`Pet`,`Bean`,`JdFactory`,`DreamFactory`,`Jxnc`,`Jdzz`,`Joy`,`Sgmh`,`Cfd`,`Cash`,`Help`,`Hack`) SELECT `ID`,`Priority`,`CreateAt`,`PtKey`,`PtPin`,`Note`,`Available`,`Nickname`,`BeanNum`,`QQ`,`PushPlus`,`Telegram`,`Fruit`,`Pet`,`Bean`,`JdFactory`,`DreamFactory`,`Jxnc`,`Jdzz`,`Joy`,`Sgmh`,`Cfd`,`Cash`,`Help`,`Hack` FROM `jd_cookies`
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:108
+[0m[33m[0.056ms] [34;1m[rows:22][0m DROP TABLE `jd_cookies`
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:108
+[0m[33m[0.335ms] [34;1m[rows:22][0m ALTER TABLE `jd_cookies__temp` RENAME TO `jd_cookies`
+
+2021/08/19 13:22:08 [32m/usr/local/go/path/pkg/mod/gorm.io/driver/sqlite@v1.1.4/migrator.go:32
+[0m[33m[0.049ms] [34;1m[rows:-][0m SELECT count(*) FROM sqlite_master WHERE type='table' AND name="jd_cookie_pools"
+
+2021/08/19 13:22:08 [32m/root/xdd/models/db.go:38
+[0m[33m[0.023ms] [34;1m[rows:-][0m SELECT * FROM `jd_cookie_pools` LIMIT 1
+
+2021/08/19 13:22:08 [32m/root/xdd/models/db.go:45
+[0m[33m[0.200ms] [34;1m[rows:26][0m SELECT * FROM `jd_cookie_pools`
+
+2021/08/19 13:22:08 [32m/root/xdd/models/db.go:50
+[0m[33m[0.107ms] [34;1m[rows:22][0m UPDATE `jd_cookies` SET `Hack`="false" WHERE Hack != "false" || Hack != "true"
+2021/08/19 13:22:08.883 [1;34m[I][0m [asm_amd64.s:1371]  检查更新2021081903
+
+2021/08/19 13:22:08.883 [1;34m[I][0m [ua.go:12]  使用自定义User-Agent
+
+2021/08/19 13:22:08.891 [1;34m[I][0m [asm_amd64.s:1371]  更新版本的失败
+
+2021/08/19 13:22:09.035 [1;34m[I][0m [init.go:23]  青龙2.8登录成功
+
+2021/08/19 13:22:09.035 [1;34m[I][0m [cron.go:17]  资产推送任务就绪
+
+2021/08/19 13:22:09.035 [1;34m[I][0m [task.go:39]  抢京豆 任务创建成功
+
+2021/08/19 13:22:09.099 [1;34m[I][0m [asm_amd64.s:1371]  http server Running on http://:9527
+
+
+2021/08/19 13:22:09 [32m/root/xdd/models/db.go:148
+[0m[33m[0.994ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+
+2021/08/19 13:22:09 [32m/root/xdd/models/db.go:148
+[0m[33m[0.725ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+
+2021/08/19 13:22:09 [32m/root/xdd/models/db.go:148
+[0m[33m[0.763ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+[2021-08-19 13:22:10] [INFO]: 将使用 device.json 内的设备信息运行Bot. 
+[2021-08-19 13:22:10] [INFO]: 开始尝试登录并同步消息... 
+[2021-08-19 13:22:10] [INFO]: 使用协议: iPad 
+[2021-08-19 13:22:10] [INFO]: Protocol -> connect to server: 113.96.12.27:8080 
+[2021-08-19 13:22:11] [INFO]: 登录成功 欢迎使用: ql 
+[2021-08-19 13:22:11] [INFO]: 开始加载好友列表... 
+[2021-08-19 13:22:12] [INFO]: 共加载 3 个好友. 
+[2021-08-19 13:22:12] [INFO]: 开始加载群列表... 
+[2021-08-19 13:22:12] [INFO]: 共加载 1 个群. 
+[2021-08-19 13:22:12] [WARNING]: 警告: 信息数据库已关闭，将无法使用 [回复/撤回] 等功能。 
+[2021-08-19 13:22:12] [WARNING]: post-format 配置错误, 将自动使用 string 
+[2021-08-19 13:22:12] [INFO]: 资源初始化完成, 开始处理信息. 
+[2021-08-19 13:22:12] [INFO]: アトリは、高性能ですから! 
+
+2021/08/19 13:22:14 [32m/root/xdd/models/db.go:148
+[0m[33m[0.773ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+
+2021/08/19 13:22:14 [32m/root/xdd/models/db.go:148
+[0m[33m[0.729ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+[2021-08-19 13:22:37] [INFO]: 收到好友 　(97664430) 的消息: 查询 1 (25625) 
+
+2021/08/19 13:22:37 [32m/root/xdd/models/db.go:148
+[0m[33m[0.726ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+2021/08/19 13:22:39.036 [1;33m[W][0m [asm_amd64.s:1371]  监听tgbot失败
+
+[2021-08-19 13:23:03] [INFO]: 收到好友 　(97664430) 的消息: 查询 1 (25626) 
+
+2021/08/19 13:23:03 [32m/root/xdd/models/db.go:148
+[0m[33m[0.783ms] [34;1m[rows:22][0m SELECT * FROM `jd_cookies` ORDER BY priority desc
+[2021-08-19 13:23:13] [INFO]: 收到好友 　(97664430) 的消息: 升级 (25627) 
+2021/08/19 13:23:28.424 [1;34m[I][0m [deamon.go:29]  小滴滴运行于deamon模式
+
